@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
         console.log(wishesFromFile);
         res.render('index', {myWishes: wishesFromFile});
     });
-
 });
 
 app.post('/wish', (req, res) => {

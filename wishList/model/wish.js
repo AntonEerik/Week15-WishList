@@ -7,7 +7,6 @@ module.exports = class Wish {
     constructor(wish){
         this.description = wish;
     }
-
     saveWish(){
         fs.readFile(filePath, (error, fileContent) => {
             let wishes = [];
